@@ -1,0 +1,18 @@
+{
+  "connection": "default",
+  "collectionName": "patrolresponses",
+  "info": {
+    "name": "patrolresponse",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "holder": {
+  "type": "string"
+}
+  }
+}

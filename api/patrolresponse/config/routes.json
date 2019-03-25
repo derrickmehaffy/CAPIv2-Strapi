@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/patrolresponses",
+      "handler": "Patrolresponse.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/patrolresponses/count",
+      "handler": "Patrolresponse.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/patrolresponses/:id",
+      "handler": "Patrolresponse.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/patrolresponses",
+      "handler": "Patrolresponse.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/patrolresponses/:id",
+      "handler": "Patrolresponse.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/patrolresponses/:id",
+      "handler": "Patrolresponse.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

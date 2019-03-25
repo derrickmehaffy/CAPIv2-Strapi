@@ -1,0 +1,18 @@
+{
+  "connection": "default",
+  "collectionName": "patrols",
+  "info": {
+    "name": "patrol",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "holder": {
+  "type": "string"
+}
+  }
+}
